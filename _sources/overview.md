@@ -1,6 +1,6 @@
 # Course overview & procedure
 
-For a solid number of years now, the majority of experimental work within `Psychology` (and most other disciplines) requires the use of computers. No matter if `data acquisition` or `analyses`, computer-aided research is almost impossible to avoid and if done right, can be incredible helpful and even enable new types of `analyses` to obtain insights that are otherwise inaccessible. Rather surprisingly to most folks, the efficient utilization of `computers` within `research` also includes `programming` or even requires it. Besides making `research` faster, more streamlined, efficient, stable, eaier to reproduce and less prone to errors, some parts of the  `research workflow` might actually require certain `programming skills`. This usually entails the generation of `experiments` and certain `analyses` of subsequently obtained `data`. 
+For a solid number of years now, the majority of experimental work within `Psychology` (and most other disciplines) requires the use of computers. No matter if `data acquisition` or `analyses`, computer-aided research is almost impossible to avoid and if done right, can be incredibly helpful and even enable new types of `analyses` to obtain insights that are otherwise inaccessible. Rather surprisingly to most folks, the efficient utilization of `computers` within `research` also includes `programming` or even requires it. Besides making `research` faster, more streamlined, efficient, stable, easier to reproduce and less prone to errors, some parts of the  `research workflow` might actually require certain `programming skills`. This usually entails the generation of `experiments` and certain `analyses` of subsequently obtained `data`. 
 
 <p align="center"><iframe src="https://giphy.com/embed/sgZdwNkOH43wZOEUJ2" width="240" height="240" frameBorder="0" vspace="0" class="giphy-embed" allowFullScreen style="overflow-y: hidden;"></iframe></p><p align="center"><a href="https://giphy.com/gifs/parksandrec-episode-9-parks-and-recreation-rec-sgZdwNkOH43wZOEUJ2"><small>via GIPHY</small></a></p></p>
 
@@ -10,7 +10,7 @@ While most thesis projects (undergrad and grad), PhD and other positions that ac
 ### TL;DR
 
 Within this course we will explore the [Python programming language](https://en.wikipedia.org/wiki/Python_(programming_language)), specifically how it can and why it should be utilized within experimental
-psychology. To do so, we will follow a "learning by doing" approach in a tripartite manner. Starting from a basic introduction into `programming` and `python` (Block I), we will evaluate how `python` can be used to run `experiments` (Block II) and `analyze` the resulting `data` (Block III). Thus, we actively seek out `realistic examples` and `workflows`, trying to solve problems with `python`.  Along this way we will also talk about important adjacent topics such as `computing environments` and `IDE`s. For a rather precise outline of the course, please consult the [respective section](https://m-earnest.github.io/Python_for_Psychologists_Winter2022/setup.html).
+psychology. To do so, we will follow a "learning by doing" approach in a tripartite manner. Starting from a basic introduction into `programming` and `python` (Block I), we will evaluate how `python` can be used to run `experiments` (Block II) and `analyze` the resulting `data` (Block III). Thus, we actively seek out `realistic examples` and `workflows`, trying to solve problems with `python`.  Along this way we will also talk about important adjacent topics such as `computing environments` and `IDE`s. For a rather precise outline of the course, please consult the [respective section](https://aylinsgl.github.io/Python_For_Psychologists_23-24/setup.html).
 
 ### How to reach the folks in the front
 
@@ -18,34 +18,25 @@ psychology. To do so, we will follow a "learning by doing" approach in a tripart
 
 The contact information of the instructors are as follows:
 
-[Michael Ernst](https://github.com/M-earnest)
+[Aylin Kallmayer](https://aylinkallmayer.com)
 
+- She/Her
 - Office hours: upon request
-- E-mail: `ernst@psych.uni-frankfurt.de`
+- E-mail: `kallmayer@psych.uni-frankfurt.de`
 - preferred mode of contact: vie e-mail
-
-```{admonition} How to address one another?
-:class: dropdown
-He/Him. When contacting me, please refrain from using honoraries and formal language, "Michael" or "you" is fine as long as the content is respectful, fair and constructive (I aim for the same when I reply).
-However, please let me know if you have a preferred way of interacting with other folks, including how you would liked to be addressed, your pronouns and the level of formality.
-```
-
-[Jack Taylor](https://github.com/JackEdTaylor)
-
-- Office hours: upon request
-- E-mail: `taylor@psych.uni-frankfurt.de`
-- preferred mode of contact: vie e-mail
-
 
 ### Gimme the details
 
-Below you will find important details regarding the course summarized in a compact form. Please consult and familiarize yourself with the information presented there prior to and/or within the first few days of the course. 
+Below you will find important details regarding the course summarized in a compact form. Please consult and familiarize yourself with the information presented there prior to and/or within the first week of the course. 
 
 #### When and where
 
-The course will officially run from October 28th, 2022 till November 19th, 2022, although homework and coding assignments may be open until the end of the semester (we'll discuss apropriate time-frames and course load with you, no worries!). The first meeting on Friday the 28.10.22 from 14.00 (ct) to 18.00 will be held at the "Seminarhaus" (SH) in room SH 3.105, Theodor-W.-Adorno-Platz 6, 60323, Frankfurt am Main. The following meetings will be held from 10.00 (ct) to 18.00 on the 4.11.22, 5.11.22 and on the 19.11.22 in room SH 3.105.
+The course will officially run from October 19th, 2023 till Feburary 2nd, 2024. 
 
-<iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=8.661464452743532%2C50.12589530933526%2C8.67423176765442%2C50.130778644149046&amp;layer=mapnik&amp;marker=50.12833703902714%2C8.667848110198975" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/?mlat=50.12834&amp;mlon=8.66785#map=17/50.12834/8.66785">View Larger Map</a></small>
+```{Important Room Change!}
+:class: warning
+Because a lot more people signed up than expected, there was a change in rooms: we will now meet weekly in **Seminarhaus Room SH 4.107** !
+```
 
 #### What about the pandemic? 
 
