@@ -24,37 +24,37 @@ This course is designed to provide lecture content in a way that it is [FAIR](ht
 
 You can use the following sections to navigate through the content of the lecture:
 
-* [Overview & procedure ](https://github.com/aylinsgl/Python_For_Psychologists_23-24/overview.html)
+* [Overview & procedure ](https://aylinsgl.github.io/Python_For_Psychologists_23-24/overview.html)
 
    What's this course all about? How are things implemented and supposed to work?
 
-* [General outline](https://github.com/aylinsgl/Python_For_Psychologists_23-24/outline.html)
+* [General outline](https://aylinsgl.github.io/Python_For_Psychologists_23-24/outline.html)
 
    What are the specific topics and aspects taught?
 
-* [Introduction](https://github.com/aylinsgl/Python_For_Psychologists_23-24/introduction/introduction.html)
+* [Introduction](https://aylinsgl.github.io/Python_For_Psychologists_23-24/introduction/introduction.html)
 
    All things gotta start somewhere and using programming within research settings is no exception to
    that, but how?
 
-* [Running experiments in Python](https://github.com/aylinsgl/Python_For_Psychologists_23-24/experiments/experiments.html#)
+* [Running experiments in Python](https://aylinsgl.github.io/Python_For_Psychologists_23-24/experiments/experiments.html#)
 
    How can you use python to conduct experiments to acquire data from participants?
 
-* [Data analyses in Python](https://github.com/aylinsgl/Python_For_Psychologists_23-24/analyses/analyses.html)
+* [Data analyses in Python](https://aylinsgl.github.io/Python_For_Psychologists_23-24/analyses/analyses.html)
 
    How can you use python to obtain insights from data, including preprocessing, statistics and visualizations?
 
-* [Student projects](https://github.com/aylinsgl/Python_For_Psychologists_23-24/projects.html)
+* [Student projects](https://aylinsgl.github.io/Python_For_Psychologists_23-24/projects.html)
 
    Making sure the work and progress of the participants is transparent and
    documented.
 
-* [Questionnaires](https://github.com/aylinsgl/Python_For_Psychologists_23-24/questionnaires.html)
+* [Questionnaires](https://aylinsgl.github.io/Python_For_Psychologists_23-24/questionnaires.html)
 
    Was it worth it and how can this be evaluated?
 
-* [Code of Conduct](https://github.com/aylinsgl/Python_For_Psychologists_23-24/CoC.html)
+* [Code of Conduct](https://aylinsgl.github.io/Python_For_Psychologists_23-24/CoC.html)
 
    Necessities for creating an open, fair, safe and inclusive learning
    experience.
