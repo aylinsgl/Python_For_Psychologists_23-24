@@ -296,7 +296,6 @@ It is a good idea to associate this with your university e-mail (if you have one
 ### Discord
 
 Go to https://discord.com/ and download and install Discord. Please note, that you can also use Discord through your browser if you don't want to download it. This will be the main channel of communication for the course.
-You will be invited to the course channel via e-mail.
 
 ### Modern web browser
 
@@ -309,7 +308,7 @@ Microsoft Edge is not modern, despite what Microsoft might try and otherwise tel
 Now that you've installed everything it's time to check that everything works as expected!
 Type the following into your terminal:
 
-    bash <( curl -s https://raw.githubusercontent.com/M-earnest/Python_for_Psychologists_Winter2022/main/check_install.sh)
+    bash <( curl -s https://raw.githubusercontent.com/aylinsgl/Python_For_Psychologists_23-24/master/check_install.sh)
 
 If you installed everything correctly you should see a message informing you as such.
 If any problems were detected you should receive some brief instructions on what is wrong with potential suggestions on how to remedy it.
@@ -333,7 +332,7 @@ By installing `Python` on your system (i.e. specifically `Conda`) and setting up
 
 To get things up and running, please follow these steps:
 
-1. Download the [`environment.yml`](https://raw.githubusercontent.com/M-earnest/Python_for_Psychologists_Winter2022/main/environment.yml) file (e.g. with right mouse click -> Save As). Make sure that the file ends with `.yml` and not `.txt`.
+1. Download the [`environment.yml`](https://raw.githubusercontent.com/aylinsgl/Python_For_Psychologists_23-24/master/environment.yml) file (e.g. with right mouse click -> Save As). Make sure that the file ends with `.yml` and not `.txt`.
 2. Open up a conda terminal (or any other terminal), and create a new conda environment with the following command: `conda env create -f /path/to/file/environment.yml` - For example ``conda env create -f ~/Downloads/environment.yml`
 3. Download the notebooks in this repository via [this link](https://github.com/M-earnest/Python_for_Psychologists_Winter2022/archive/refs/heads/main.zip) and unzip them to your preferred location, e.g. `Desktop/Python_for_Psychologists_Winter2022`.
 4. Next, open up a `conda terminal` (or any other `terminal`), activate the `conda environment` with `conda activate pfp_2022` (or on older `conda environment` with `source activate pfp_2022` for `mac` and `linux` and `activate pfp_2022` for `windows`).
