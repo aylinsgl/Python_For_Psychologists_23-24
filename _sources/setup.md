@@ -50,7 +50,8 @@ The rest of this page provides more detail on installation procedures for each o
 
 Select the tab that corresponds to your operating system and follow the instructions therein.
 
-```{tabbed} Windows
+````{tab-set}
+```{tab-item} Windows
 **Windows Subsystem for Linux (WSL)**
 
 1. Search for `Windows Powershell` in your applications; right click and select `Run as administrator`.
@@ -139,7 +140,7 @@ Open a terminal and type the following commands:
         conda install -y flake8 ipython jupyter jupyterlab matplotlib numpy pandas scipy seaborn pingouin statsmodels plotly
 ```
 
-```{tabbed} Linux
+```{tab-item} Linux
 **Bash shell**
 
 You already have it!
@@ -206,7 +207,7 @@ Open a terminal and type the following commands:
 
 ```
 
-```{tabbed} MacOs
+```{tab-item} MacOs
 **Bash shell**
 
 You already have it!
@@ -281,6 +282,7 @@ Open a terminal and type the following commands:
         conda config --set channel_priority strict
         conda install -y flake8 ipython jupyter jupyterlab matplotlib numpy pandas scipy seaborn pingouin statsmodels plotly
 ```
+````
 
 **Note**: If the instructions aren't working and you have spent more than 15-20 minutes troubleshooting on your own, reach out on the #help-installation channel on the Discord channel with the exact problems you're having.
 One of the instructors will try and get back to you quickly to help resolve the situation.
