@@ -33,19 +33,10 @@ Below you will find important details regarding the course summarized in a compa
 
 The course will officially run from October 19th, 2023 till Feburary 2nd, 2024. 
 
-```{Important Room Change!}
+```{admonition} Important Room Change!
 :class: warning
 Because a lot more people signed up than expected, there was a change in rooms: we will now meet weekly in **Seminarhaus Room SH 4.107** !
 ```
-
-#### What about the pandemic? 
-
-Until further notice, it is assumed that the course will take place in person. This may be subject to change given everything we experienced and learned in the last years. Therefore the course is setup in a way that would allow both in person and virtual meetings. Should changes to the course format be mandated, you'll be notified ASAP.
-If you feel uncomfortable doing a busy commute to sit in a room with several other people, please let me know and I'll give my best to come up with a hybrid format. However, based on current regulations there won't be any recordings. Just in case: yes, everyone should wear a mask at all times (although this is not to be understood as an official regulation, as is not permitted by the university)!
-
-<iframe src="https://giphy.com/embed/opPuISKbzCXAFHhZFJ" width="280" height="280" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/opPuISKbzCXAFHhZFJ">via GIPHY</a></p>
-
-
 
 #### Can I use my calculator?
 
