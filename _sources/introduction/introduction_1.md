@@ -25,7 +25,6 @@ First things first: what is going to happen in this course? What is it all about
 
 <iframe src="https://docs.google.com/presentation/d/1q61YXQJdeCvX2wmZB52Ks6j7lmER5eDurN90eDiV_BU/edit#slide=id.g8074ffaf2c_0_0" frameborder="0" width="700" height="470" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
-
 ## Project related work 🥼🧑🏿‍🔬👩🏻‍🔬
 
 Not applicable, as project related work didn't start yet.
