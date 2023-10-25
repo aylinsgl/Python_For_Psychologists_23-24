@@ -38,3 +38,4 @@ The last thing I want you to do, is open your own notebook and saving it. Click 
 
 <img align="center" src="https://raw.githubusercontent.com/aylinsgl/Python_For_Psychologists_23-24/master/lecture/static/open_new_nb.png" alt="new" title=" " width="900" height="600" />
 
+Tada! now you can save this notebook under `File` `save as`. We will go from here next time. 
