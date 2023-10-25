@@ -7,15 +7,6 @@ These three defining parts will also be used as cornerstones of the course outli
 
 Please see below for our current optimistic schedule. Depending on our progress, potential problems and different forms of learning, content and times might change a bit. Each lecture will be divided into two parts: a lecture part and a practicle part where you work on problems in groups.
 
-💡 - input from the instructor  
-👨🏻‍🏫 - instructor presents content  
-🥼 - research project work  
-🧑🏽‍💻🧑🏾‍💻 - work on demo data  
-🧑🏿‍🔬👩🏻‍🔬 - (work on own research project)  
-
-🖥️ - work outside course hours  
-✍🏽 - writing outside course hours  
-📖 - reading outside course hours  
 
 ```{note}
 The optimistic schedule below may be subject of change, dependent on time constraints and progress made in the previous meetings. The sessions for the following week or two will be updated here the week before.  
@@ -23,5 +14,6 @@ The optimistic schedule below may be subject of change, dependent on time constr
 
 | Date (day/month/year) 🗓         | Topic 💡 👨🏻‍🏫   | Assignment 🖥️ ✍🏽📖 / deadline |
 |--------------|-----------|------------|
-| 19/10/2023 | Introduction I - course information & setup 💡 👨🏻‍🏫 | 🖥️ 📖 / not applicable |
-| 26/10/2023 | Introduction II - no in person session! 🧑🏽‍💻🧑🏾‍💻 | 🖥️ 📖 / not applicable |
+| 19/10/2023 | Introduction I - course information & setup | not applicable |
+| 26/10/2023 | Introduction II - no in person session! Jupyter notebooks I | not applicable |
+| 02/11/2023 | Introduction II - Jupyter notebooks II | not applicable |
