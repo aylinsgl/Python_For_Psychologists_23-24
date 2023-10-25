@@ -24,12 +24,17 @@ If you installed miniconda, you won't have the `Navigagor`. Instead, what you sh
 
 <img align="center" src="https://raw.githubusercontent.com/aylinsgl/Python_For_Psychologists_23-24/master/lecture/static/terminal_jn.png" alt="terminal" title=" " width="600" height="450" />
 
-If you start `jupyter notebook` from the terminal, a lot of text will appear in your terminal which has something to do with the server that the notebook is hosted on locally. It should also automatically open a `homepage` on your browser, if it doesn't, copy paste the link from your terminal that says:
+If you start `jupyter notebook` from the terminal, a lot of text will appear in your terminal which has something to do with the server that the notebook is hosted on locally. It should also automatically open a `homepage` on your browser, if it doesn't, copy paste the link from your terminal and open it in your browser.
 
-<img align="center" src="https://raw.githubusercontent.com/aylinsgl/Python_For_Psychologists_23-24/master/lecture/static/jupyter_server.png" alt="server" title=" " width="600" height="450" />
-
-and open it in your browser.
+<img align="center" src="https://raw.githubusercontent.com/aylinsgl/Python_For_Psychologists_23-24/master/lecture/static/jupyter_server.png" alt="server" title=" " width="600" height="20" />
 
 Your jupyter homepage should look something like this:
 
 <img align="center" src="https://raw.githubusercontent.com/aylinsgl/Python_For_Psychologists_23-24/master/lecture/static/jupyter_homepage.png" alt="homepage" title=" " width="900" height="600" />
+
+## Create your own notebook
+
+The last thing I want you to do, is open your own notebook and saving it. Click on `New` and select `python 3 (ipykernel)`. It will create a new empty notebook for you with a python 3 kernel.
+
+<img align="center" src="https://raw.githubusercontent.com/aylinsgl/Python_For_Psychologists_23-24/master/lecture/static/open_new_nb.png" alt="new" title=" " width="900" height="600" />
+
