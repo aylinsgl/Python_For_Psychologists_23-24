@@ -2,7 +2,7 @@
 
 There are a few things you need to get working on your machine in order to follow this course. However, don't worry as it's all gonna be [open source](), won't require a lot of storage and will be explained in detail.
 
-Some parts and section of this course will be executable via `cloud computing` (click on the small rocket at the top right of the webpage to start [binder](https://mybinder.org/)), which mainly serves the puprose of making the lessons nice and easy to follow in an interactive manner. Although in general getting `Python` & friends to work reliably on your machine is going to be very beneficial. This holds true for the course and especially beyond. The following tools focusing open and reproducible (neuro-/data) science) will therefore not only be necessary for this course, but are curated in a way that you can build your "everyday" research workflow around them. This even applies if you won't continue with `python` (I certainly hope you do) and instead work with `R` (of course also cool), `matlab` (weeeeeeeell...) or what have you. 
+Some parts and section of this course will be executable via `cloud computing` (click on the small rocket at the top right of the webpage to start [binder](https://mybinder.org/)), which mainly serves the puprose of making the lessons nice and easy to follow in an interactive manner. Although in general getting `Python` & friends to work reliably on your machine is going to be very beneficial. This holds true for the course and especially beyond. The following tools focusing open and reproducible (neuro-/data science) will therefore not only be necessary for this course, but are curated in a way that you can build your "everyday" research workflow around them. This even applies if you won't continue with `python` (I certainly hope you do) and instead work with `R` (of course also cool), `matlab` (weeeeeeeell...) or what have you. 
 
 You'll find the (hopefully) comprehensive set of install instructions below. While not all of them might be totally necessary for the course, they all will help you a great deal going further and are especially useful/needed if we have to hold the course virtually due to the COVID-19 pandemic.  
 
@@ -50,7 +50,8 @@ The rest of this page provides more detail on installation procedures for each o
 
 Select the tab that corresponds to your operating system and follow the instructions therein.
 
-```{tabbed} Windows
+````{tab-set}
+```{tab-item} Windows
 **Windows Subsystem for Linux (WSL)**
 
 1. Search for `Windows Powershell` in your applications; right click and select `Run as administrator`.
@@ -139,7 +140,7 @@ Open a terminal and type the following commands:
         conda install -y flake8 ipython jupyter jupyterlab matplotlib numpy pandas scipy seaborn pingouin statsmodels plotly
 ```
 
-```{tabbed} Linux
+```{tab-item} Linux
 **Bash shell**
 
 You already have it!
@@ -206,7 +207,7 @@ Open a terminal and type the following commands:
 
 ```
 
-```{tabbed} MacOs
+```{tab-item} MacOs
 **Bash shell**
 
 You already have it!
@@ -281,6 +282,7 @@ Open a terminal and type the following commands:
         conda config --set channel_priority strict
         conda install -y flake8 ipython jupyter jupyterlab matplotlib numpy pandas scipy seaborn pingouin statsmodels plotly
 ```
+````
 
 **Note**: If the instructions aren't working and you have spent more than 15-20 minutes troubleshooting on your own, reach out on the #help-installation channel on the Discord channel with the exact problems you're having.
 One of the instructors will try and get back to you quickly to help resolve the situation.
@@ -294,7 +296,6 @@ It is a good idea to associate this with your university e-mail (if you have one
 ### Discord
 
 Go to https://discord.com/ and download and install Discord. Please note, that you can also use Discord through your browser if you don't want to download it. This will be the main channel of communication for the course.
-You will be invited to the course channel via e-mail.
 
 ### Modern web browser
 
@@ -307,7 +308,7 @@ Microsoft Edge is not modern, despite what Microsoft might try and otherwise tel
 Now that you've installed everything it's time to check that everything works as expected!
 Type the following into your terminal:
 
-    bash <( curl -s https://raw.githubusercontent.com/M-earnest/Python_for_Psychologists_Winter2022/main/check_install.sh)
+    bash <( curl -s https://raw.githubusercontent.com/aylinsgl/Python_For_Psychologists_23-24/master/check_install.sh)
 
 If you installed everything correctly you should see a message informing you as such.
 If any problems were detected you should receive some brief instructions on what is wrong with potential suggestions on how to remedy it.
@@ -322,7 +323,8 @@ Yeah, you did! Great job!
 
 Now that you have installed the required software (or not) to follow the course, it's time to gather the respective materials.
 
-```{tabbed} Local
+````{tab-set}
+```{tab-item} Local
 <img src="https://upload.wikimedia.org/wikipedia/commons/e/ea/Conda_logo.svg" alt="conda logo" width="300"/>\
 <sub><sup><sub><sup>https://upload.wikimedia.org/wikipedia/commons/e/ea/Conda_logo.svg</sup></sub></sup></sub>
 
@@ -330,14 +332,14 @@ By installing `Python` on your system (i.e. specifically `Conda`) and setting up
 
 To get things up and running, please follow these steps:
 
-1. Download the [`environment.yml`](https://raw.githubusercontent.com/M-earnest/Python_for_Psychologists_Winter2022/main/environment.yml) file (e.g. with right mouse click -> Save As). Make sure that the file ends with `.yml` and not `.txt`.
+1. Download the [`environment.yml`](https://raw.githubusercontent.com/aylinsgl/Python_For_Psychologists_23-24/master/environment.yml) file (e.g. with right mouse click -> Save As). Make sure that the file ends with `.yml` and not `.txt`.
 2. Open up a conda terminal (or any other terminal), and create a new conda environment with the following command: `conda env create -f /path/to/file/environment.yml` - For example ``conda env create -f ~/Downloads/environment.yml`
 3. Download the notebooks in this repository via [this link](https://github.com/M-earnest/Python_for_Psychologists_Winter2022/archive/refs/heads/main.zip) and unzip them to your preferred location, e.g. `Desktop/Python_for_Psychologists_Winter2022`.
 4. Next, open up a `conda terminal` (or any other `terminal`), activate the `conda environment` with `conda activate pfp_2022` (or on older `conda environment` with `source activate pfp_2022` for `mac` and `linux` and `activate pfp_2022` for `windows`).
 5. Finally, via the `terminal`, move to the folder where you've put all the unzipped content of this workshop, e.g. with the command `cd ~/Desktop/Python_for_Psychologists_Winter2022` and run the command `jupyter notebook`. If the `notebook server` isn't automatically opened in a new browser window, please copy-paste either the `http://127.0.0.1:8888/...` or the `http://localhost:8888/...` path into a new browser window and press `Enter`. You should now see the `jupyter notebook server` (looking like a file browser and displaying the content of the directory). 
 ```
 
-```{tabbed} Cloud via Mybinder
+```{tab-item} Cloud via Mybinder
 
 <img src="https://mybinder.org/static/logo.svg?v=fe52c40adc69454ba7536393f76ebd715e5fb75f5feafe16a27c47483eabf3311c14ed9fda905c49915d6dbf369ae68fb855a40dd05489a7b9542a9ee532e92b" alt="binder logo" width="300"/>\
 <sub><sup><sub><sup>https://mybinder.org/static/logo.svg?v=fe52c40adc69454ba7536393f76ebd715e5fb75f5feafe16a27c47483eabf3311c14ed9fda905c49915d6dbf369ae68fb855a40dd05489a7b9542a9ee532e92b</sup></sub></sup></sub>
@@ -349,6 +351,7 @@ To get things up and running, please follow these steps:
 
 You can use this approach to run and test most of the notebooks and to explore the slides. To access the MyBinder instance, use [this link](https://mybinder.org/v2/gh/peerherholz/Python_for_Psychologists_Winter2021/HEAD).
 ```
+````
 
 ## Enter the matrix
 
