@@ -23,3 +23,13 @@ There are different ways to open the program. If you installed Anaconda, you can
 If you installed miniconda, you won't have the `Navigagor`. Instead, what you should do, is open your `Terminal` and type in `jupyter notebook`. Make sure your `base` environment is activated. If you can't see the `(base)` that you see in the picture, type in `conda init` or `conda activate base`.
 
 <img align="center" src="https://raw.githubusercontent.com/aylinsgl/Python_For_Psychologists_23-24/master/lecture/static/terminal_jn.png" alt="logo" title="Twitter" width="600" height="450" />
+
+If you start `jupyter notebook` from the terminal, a lot of text will appear in your terminal which has something to do with the server that the notebook is hosted on locally. It should also automatically open a `homepage` on your browser, if it doesn't, copy paste the link from your terminal that says:
+
+<img align="center" src="https://raw.githubusercontent.com/aylinsgl/Python_For_Psychologists_23-24/master/lecture/static/jupyter_server.png" alt="logo" title="Twitter" width="600" height="450" />
+
+and open it in your browser.
+
+Your jupyter homepage should look something like this:
+
+<img align="center" src="https://raw.githubusercontent.com/aylinsgl/Python_For_Psychologists_23-24/master/lecture/static/jupyter_homepage.png" alt="logo" title="Twitter" width="900" height="600" />
