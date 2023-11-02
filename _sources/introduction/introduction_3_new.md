@@ -3,7 +3,7 @@
 The things covered in this section will introduce central concepts for our subsequent endeavors in this class. More precisely, we'll explore `jupyter notebooks` as one form of interacting with your computer, specifically `python`. Getting a good hang of this will be important as most of our `python` endeavors will happen within `jupyter notebooks` and they are a staple in research workflows.
 
 ## Create environment
-Download the following [environment file](https://github.com/aylinsgl/Python_For_Psychologists_23-24/pfp_2023.yaml)
+Download the following [environment file](https://github.com/aylinsgl/Python_For_Psychologists_23-24/blob/master/pfp_2023.yaml)
 In your terminal, type `conda env create -f path/to/your/file/pfp_2023.yml` replacing 'path/to/your/file/' with the actual filepath.
 
 
