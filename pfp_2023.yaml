@@ -1,0 +1,9 @@
+name: pfp_2023
+
+dependencies:
+  - ipython
+  - matplotlib
+  - pandas
+  - pip
+  - python
+  - numpy
