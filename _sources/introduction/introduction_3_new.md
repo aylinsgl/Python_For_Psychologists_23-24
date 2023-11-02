@@ -16,17 +16,15 @@ We will now take a closer look at `jupyter notebook` and how we can work with th
 
 Please see the rendered version of the `jupyter notebook` [Introduction III - jupyter notebooks](https://aylinsgl.github.io/Python_For_Psychologists_23-24/introduction/intro_jupyter.html) in the `ToC` on the left.
 
-<iframe src="https://docs.google.com/presentation/d/1i9xbDmJZz52VfITaVO6HtCNmagGp2X0R/edit?usp=sharing&ouid=111947409952022928265&rtpof=true&sd=true" frameborder="0" width="700" height="470" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-
 ## Homework
 
 You should create a `jupyter notebook` with
-    - **mandatory**:  `3 different cells`:
+- **mandatory**:  `3 different cells`:
             - 1 rendered markdown cell within which you name your favorite movie and describe why you like it via  
               max. 2 sentences
             - 1 code cell with an equation (e.g. `1+1`, `(a+b)/(c+d)`, etc.)
             - 1 raw cell with your favorite snack 
-    - **optional**: try to include a picture of your favorite animal
+- **optional**: try to include a picture of your favorite animal
 - save the notebook and e-mail it to kallmayer@psych.uni-frankfurt.de
 
 Please note that the deadline for the assignment is: 10/11/2021, 11:59 PM EST.
