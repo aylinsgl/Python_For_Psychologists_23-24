@@ -9,8 +9,7 @@ chapters:
   sections:
   - file: introduction/introduction_1.md
   - file: introduction/introduction_2.md
-  - file: introduction/introduction_3.md
-  - file: introduction/introduction_4.md
+  - file: introduction/introduction_3_new.md
     sections:
     - file: introduction/intro_jupyter.ipynb
   - file: introduction/introduction_5.md
