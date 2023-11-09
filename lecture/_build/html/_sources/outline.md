@@ -16,4 +16,5 @@ The optimistic schedule below may be subject of change, dependent on time constr
 |--------------|-----------|------------|
 | 19/10/2023 | Introduction I - course information & setup | not applicable |
 | 26/10/2023 | Introduction II - no in person session! Jupyter notebooks I | not applicable |
-| 02/11/2023 | Introduction II - Jupyter notebooks II | not applicable |
+| 02/11/2023 | Introduction III - Jupyter notebooks II | not applicable |
+| 09/11/2023 | Introduction IV - Intro to Python I | not applicable |
