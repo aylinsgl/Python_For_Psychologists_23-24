@@ -21,9 +21,9 @@ Please see the rendered version of the `jupyter notebook` [Introduction IV - Int
 
 ## tasks for subsequent meeting 🖥️✍🏽📖
 
-Your second homework assignment will entail working through a few tasks covering the contents discussed in this session within a `jupyter notebook`. You can download it [here](XXX). In order to open it, put the `homework assignment notebook` within the folder you stored the `course materials`, start a `jupyter notebook` as during the sessions, navigate to the `homework assignment notebook`, open it and have fun!  
+Your second homework assignment will entail working through a few tasks covering the contents discussed in this session within a `jupyter notebook`. You can download it [here](https://drive.google.com/file/d/12Mfx92N7uoTEZkBgqprEqwW0YmuXzg3p/view?usp=sharing). In order to open it, put the `homework assignment notebook` within the folder you stored the `course materials`, start a `jupyter notebook` as during the sessions, navigate to the `homework assignment notebook`, open it and have fun!  
 
-**Deadline: XXX**
+**Deadline: 17.11.2023**
 
 ## optional/reading/further materials
 
