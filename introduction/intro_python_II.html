@@ -9,7 +9,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
-    <title>Introduction VI - Introduction to Python II &#8212; Winter - 2023</title>
+    <title>Introduction V - Introduction to Python - II &#8212; Winter - 2023</title>
   
   
   
@@ -66,7 +66,7 @@ const thebe_selector_output = ".output, .cell_output"
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
     <link rel="next" title="Introduction VII" href="introduction_7.html" />
-    <link rel="prev" title="Introduction VI" href="introduction_6.html" />
+    <link rel="prev" title="Introduction V" href="introduction_6.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -173,8 +173,8 @@ const thebe_selector_output = ".output, .cell_output"
 <li class="toctree-l3"><a class="reference internal" href="intro_python_I.html">Introduction IV - Introduction to Python - I</a></li>
 </ul>
 </li>
-<li class="toctree-l2 current active has-children"><a class="reference internal" href="introduction_6.html">Introduction VI</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-4"><i class="fa-solid fa-chevron-down"></i></label><ul class="current">
-<li class="toctree-l3 current active"><a class="current reference internal" href="#">Introduction VI - Introduction to Python II</a></li>
+<li class="toctree-l2 current active has-children"><a class="reference internal" href="introduction_6.html">Introduction V</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-4"><i class="fa-solid fa-chevron-down"></i></label><ul class="current">
+<li class="toctree-l3 current active"><a class="current reference internal" href="#">Introduction V - Introduction to Python - II</a></li>
 </ul>
 </li>
 <li class="toctree-l2 has-children"><a class="reference internal" href="introduction_7.html">Introduction VII</a><input class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-5"><i class="fa-solid fa-chevron-down"></i></label><ul>
@@ -479,7 +479,7 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Introduction VI - Introduction to Python II</h1>
+    <h1>Introduction V - Introduction to Python - II</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -500,10 +500,8 @@ document.write(`
 </li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#operators-and-comparisons">Operators and comparisons</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#exercise-4-1">Exercise 4.1</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#exercise-4-2">Exercise 4.2</a><ul class="nav section-nav flex-column">
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#exercise-4-3">Exercise 4.3</a></li>
-</ul>
-</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#exercise-4-2">Exercise 4.2</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#exercise-4-3">Exercise 4.3</a></li>
 </ul>
 </li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#strings-list-and-dictionaries">Strings, List and dictionaries</a><ul class="nav section-nav flex-column">
@@ -550,15 +548,16 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article" role="main">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="introduction-vi-introduction-to-python-ii">
-<h1>Introduction VI - Introduction to Python II<a class="headerlink" href="#introduction-vi-introduction-to-python-ii" title="Permalink to this heading">#</a></h1>
+  <section class="tex2jax_ignore mathjax_ignore" id="introduction-v-introduction-to-python-ii">
+<h1>Introduction V - Introduction to Python - II<a class="headerlink" href="#introduction-v-introduction-to-python-ii" title="Permalink to this heading">#</a></h1>
 <p><a class="reference external" href="https://github.com/M-earnest">Michael Ernst</a><br />
 Phd student - <a class="reference external" href="http://www.fiebachlab.org/">Fiebach Lab</a>, <a class="reference external" href="https://www.psychologie.uni-frankfurt.de/49868684/Abteilungen">Neurocognitive Psychology</a> at <a class="reference external" href="https://www.goethe-university-frankfurt.de/en?locale=en">Goethe-University Frankfurt</a></p>
+<p>Adapted by: <a class="reference external" href="https://www.aylinkallmayer.com">Aylin Kallmayer</a>, <a class="reference external" href="https://www.scenegrammarlab.com">Scene-Grammar-Lab</a></p>
 <section id="before-we-get-started">
 <h2>Before we get started…<a class="headerlink" href="#before-we-get-started" title="Permalink to this heading">#</a></h2>
 <br>
 <ul class="simple">
-<li><p>most of what you’ll see within this lecture was prepared by Ross Markello, Michael Notter and Peer Herholz and further adapted for this course by Peer Herholz and Michael Ernst</p></li>
+<li><p>most of what you’ll see within this lecture was prepared by Ross Markello, Michael Notter and Peer Herholz and further adapted for this course by Peer Herholz and Michael Ernst, and Aylin Kallmayer</p></li>
 <li><p>based on Tal Yarkoni’s <a class="reference external" href="https://neurohackademy.org/course/introduction-to-python-2/">“Introduction to Python” lecture at Neurohackademy 2019</a></p></li>
 <li><p>based on <a class="reference external" href="http://github.com/jrjohansson/scientific-python-lectures">IPython notebooks from J. R. Johansson</a></p></li>
 <li><p>based on <a class="reference external" href="http://www.stavros.io/tutorials/python/">http://www.stavros.io/tutorials/python/</a> &amp; <a class="reference external" href="http://www.swaroopch.com/notes/python">http://www.swaroopch.com/notes/python</a></p></li>
@@ -1304,8 +1303,9 @@ Member - <a class="reference external" href="https://bids-specification.readthed
 </div>
 </div>
 </div>
+</section>
 <section id="exercise-4-3">
-<h4>Exercise 4.3<a class="headerlink" href="#exercise-4-3" title="Permalink to this heading">#</a></h4>
+<h3>Exercise 4.3<a class="headerlink" href="#exercise-4-3" title="Permalink to this heading">#</a></h3>
 <p>Having found the reference <code class="docutils literal notranslate"><span class="pre">value</span></code>, that is <code class="docutils literal notranslate"><span class="pre">1.2</span></code> we can compare it to our <code class="docutils literal notranslate"><span class="pre">mean</span></code>. Specifically, you want to know if the <code class="docutils literal notranslate"><span class="pre">mean</span></code> is <code class="docutils literal notranslate"><span class="pre">less</span> <span class="pre">or</span> <span class="pre">equal</span></code> than <code class="docutils literal notranslate"><span class="pre">1.2</span></code>. The outcome of the <code class="docutils literal notranslate"><span class="pre">comparison</span></code> should then be the <code class="docutils literal notranslate"><span class="pre">value</span></code> of a new <code class="docutils literal notranslate"><span class="pre">variable</span></code> called <code class="docutils literal notranslate"><span class="pre">mean_reference_comp</span></code>.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -1328,7 +1328,6 @@ Member - <a class="reference external" href="https://bids-specification.readthed
 </ul>
 </li>
 </ul>
-</section>
 </section>
 </section>
 <section id="strings-list-and-dictionaries">
@@ -1861,7 +1860,7 @@ After that, please compare the length of the <code class="docutils literal notra
 <p>Next up: <code class="docutils literal notranslate"><span class="pre">list</span></code>s. In general, <code class="docutils literal notranslate"><span class="pre">list</span></code>s are very similar to <code class="docutils literal notranslate"><span class="pre">strings</span></code>. One crucial difference is that <code class="docutils literal notranslate"><span class="pre">list</span></code> elements (things in the <code class="docutils literal notranslate"><span class="pre">list</span></code>) can be of any <code class="docutils literal notranslate"><span class="pre">type</span></code>: <code class="docutils literal notranslate"><span class="pre">integers</span></code>, <code class="docutils literal notranslate"><span class="pre">floats</span></code>, <code class="docutils literal notranslate"><span class="pre">strings</span></code>, etc..</p>
 <p>Additionally, <code class="docutils literal notranslate"><span class="pre">types</span></code> can be freely mixed within a <code class="docutils literal notranslate"><span class="pre">list</span></code>, that is, each <code class="docutils literal notranslate"><span class="pre">element</span></code> of a list can be of a different <code class="docutils literal notranslate"><span class="pre">type</span></code>. <code class="docutils literal notranslate"><span class="pre">List</span></code>s are among the <code class="docutils literal notranslate"><span class="pre">data</span> <span class="pre">types</span></code> and <code class="docutils literal notranslate"><span class="pre">structures</span></code> you’ll work with almost every time you do something in <code class="docutils literal notranslate"><span class="pre">python</span></code>. They are super handy and comparably to <code class="docutils literal notranslate"><span class="pre">strings</span></code>, have a lot of “in-built” functionality.</p>
 </br>
-<center><img src="../static/python_data_types_2.png"></center><p>The basic <code class="docutils literal notranslate"><span class="pre">syntax</span></code> for creating <code class="docutils literal notranslate"><span class="pre">list</span></code>s in <code class="docutils literal notranslate"><span class="pre">python</span></code> is <code class="docutils literal notranslate"><span class="pre">[...]</span></code>:</p>
+<center><img src="https://raw.githubusercontent.com/PeerHerholz/Python_for_Psychologists_Winter2021/master/lecture/static/python_data_types_2.png"></center><p>The basic <code class="docutils literal notranslate"><span class="pre">syntax</span></code> for creating <code class="docutils literal notranslate"><span class="pre">list</span></code>s in <code class="docutils literal notranslate"><span class="pre">python</span></code> is <code class="docutils literal notranslate"><span class="pre">[...]</span></code>:</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">]</span>
@@ -2014,7 +2013,6 @@ the second index of our nested_list is a list we can index again via nested_list
 </div>
 </div>
 <p>Lets have a look at another <code class="docutils literal notranslate"><span class="pre">list</span></code>. Assuming you obtain data describing the favorite <code class="docutils literal notranslate"><span class="pre">movies</span></code> and <code class="docutils literal notranslate"><span class="pre">snacks</span></code> of a sample population, we can put the respective responses in <code class="docutils literal notranslate"><span class="pre">list</span></code>s for easy handling:</p>
-<p><a class="reference external" href="https://media.tenor.com/_tHaF45EuT8AAAAC/live.gif">https://media.tenor.com/_tHaF45EuT8AAAAC/live.gif</a></p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># everyone name a band/artist</span>
@@ -2065,7 +2063,7 @@ The favorite animals were: []
 <p>Initially we might want to <code class="docutils literal notranslate"><span class="pre">count</span></code> how many responses there were. We can achieve this via our old friend the <code class="docutils literal notranslate"><span class="pre">len</span></code> <code class="docutils literal notranslate"><span class="pre">function</span></code>. If we want to also check if we got responses from all 17 participants of our sample population, we can directly use <code class="docutils literal notranslate"><span class="pre">comparisons</span></code>.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Regarding movies there were </span><span class="si">%s</span><span class="s1"> responses&#39;</span> <span class="o">%</span><span class="k">len</span>(artists))
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Regarding artists there were </span><span class="si">%s</span><span class="s1"> responses&#39;</span> <span class="o">%</span><span class="k">len</span>(artists))
 <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;We got responses from all participants: </span><span class="si">%s</span><span class="s1">&#39;</span> <span class="o">%</span><span class="k">str</span>(len(artists)==17))
 </pre></div>
 </div>
@@ -2239,7 +2237,7 @@ The unique responses regarding animals were:  []
 <p>Lets assume we got new data from two participants and thus need to update our <code class="docutils literal notranslate"><span class="pre">list</span></code>, we can simply use <code class="docutils literal notranslate"><span class="pre">.append()</span></code> to, well, append or add these new entries:</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">artists</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s1">&#39;My Neighbor Totoro&#39;</span><span class="p">)</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">artists</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s1">&#39;Taylor Swift&#39;</span><span class="p">)</span>
 <span class="n">artists</span>
 </pre></div>
 </div>
@@ -2253,13 +2251,13 @@ The unique responses regarding animals were:  []
 <p>We obviously do the same for <code class="docutils literal notranslate"><span class="pre">snacks</span></code> and <code class="docutils literal notranslate"><span class="pre">animals</span></code> again:</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">artists</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s1">&#39;Wasabi Peanuts&#39;</span><span class="p">)</span>
-<span class="n">artists</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">snacks</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s1">&#39;Wasabi Peanuts&#39;</span><span class="p">)</span>
+<span class="n">snacks</span>
 </pre></div>
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[&#39;My Neighbor Totoro&#39;, &#39;Wasabi Peanuts&#39;]
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[&#39;Wasabi Peanuts&#39;, &#39;Wasabi Peanuts&#39;]
 </pre></div>
 </div>
 </div>
@@ -2281,7 +2279,7 @@ The unique responses regarding animals were:  []
 <p>The <code class="docutils literal notranslate"><span class="pre">.insert</span></code> <code class="docutils literal notranslate"><span class="pre">functions</span></code> takes two <code class="docutils literal notranslate"><span class="pre">arguments</span></code>, the <code class="docutils literal notranslate"><span class="pre">index</span></code> where a new <code class="docutils literal notranslate"><span class="pre">value</span></code> should be inserted and the <code class="docutils literal notranslate"><span class="pre">value</span></code> that should be inserted: <code class="docutils literal notranslate"><span class="pre">list.insert(index,</span> <span class="pre">value)</span></code>. The <code class="docutils literal notranslate"><span class="pre">index</span></code> of the subsequent <code class="docutils literal notranslate"><span class="pre">values</span></code> will shift +1 accordingly. Assuming, we want to add a new <code class="docutils literal notranslate"><span class="pre">value</span></code> at the <code class="docutils literal notranslate"><span class="pre">third</span> <span class="pre">index</span></code> of each of our <code class="docutils literal notranslate"><span class="pre">list</span></code>s, this how we would do that:</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">artists</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="s1">&#39;The sound of animals fighting&#39;</span><span class="p">)</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">artists</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="s1">&#39;Rosalia&#39;</span><span class="p">)</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">artists</span><span class="p">)</span>
 </pre></div>
 </div>
@@ -2321,9 +2319,9 @@ The unique responses regarding animals were:  []
 <p>If you want to change the <code class="docutils literal notranslate"><span class="pre">value</span></code> of a <code class="docutils literal notranslate"><span class="pre">list</span></code> <code class="docutils literal notranslate"><span class="pre">element</span></code> (e.g. you noticed an error and need to change the <code class="docutils literal notranslate"><span class="pre">value</span></code>), you can do that directly by <code class="docutils literal notranslate"><span class="pre">assigning</span></code> a new <code class="docutils literal notranslate"><span class="pre">value</span></code> to the <code class="docutils literal notranslate"><span class="pre">element</span></code> at the given <code class="docutils literal notranslate"><span class="pre">index</span></code>:</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;The element at index 5 of the list of snacks is: </span><span class="si">%s</span><span class="se">\n</span><span class="s1">&#39;</span> <span class="o">%</span><span class="k">snacks</span>[5])
-<span class="n">artists</span><span class="p">[</span><span class="mi">15</span><span class="p">]</span> <span class="o">=</span> <span class="s1">&#39;Apples&#39;</span>
-<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;It is now </span><span class="si">%s</span><span class="se">\n</span><span class="s1">&#39;</span> <span class="o">%</span><span class="k">snacks</span>[5])
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;The element at index 0 of the list of snacks is: </span><span class="si">%s</span><span class="se">\n</span><span class="s1">&#39;</span> <span class="o">%</span><span class="k">snacks</span>[2])
+<span class="n">snacks</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span> <span class="o">=</span> <span class="s1">&#39;Apples&#39;</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;It is now </span><span class="si">%s</span><span class="se">\n</span><span class="s1">&#39;</span> <span class="o">%</span><span class="k">snacks</span>[2])
 <span class="nb">print</span><span class="p">(</span><span class="n">snacks</span><span class="p">)</span>
 </pre></div>
 </div>
@@ -2331,10 +2329,10 @@ The unique responses regarding animals were:  []
 <div class="cell_output docutils container">
 <div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="gt">---------------------------------------------------------------------------</span>
 <span class="ne">IndexError</span><span class="g g-Whitespace">                                </span>Traceback (most recent call last)
-<span class="n">Cell</span> <span class="n">In</span> <span class="p">[</span><span class="mi">107</span><span class="p">],</span> <span class="n">line</span> <span class="mi">1</span>
-<span class="ne">----&gt; </span><span class="mi">1</span> <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;The element at index 5 of the list of snacks is: </span><span class="si">%s</span><span class="se">\n</span><span class="s1">&#39;</span> <span class="o">%</span><span class="k">snacks</span>[5])
-<span class="g g-Whitespace">      </span><span class="mi">2</span> <span class="n">artists</span><span class="p">[</span><span class="mi">15</span><span class="p">]</span> <span class="o">=</span> <span class="s1">&#39;Apples&#39;</span>
-<span class="g g-Whitespace">      </span><span class="mi">3</span> <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;It is now </span><span class="si">%s</span><span class="se">\n</span><span class="s1">&#39;</span> <span class="o">%</span><span class="k">snacks</span>[5])
+<span class="o">/</span><span class="n">Users</span><span class="o">/</span><span class="n">aylinkallmayer</span><span class="o">/</span><span class="n">Dropbox</span><span class="o">/</span><span class="n">Promotion</span><span class="o">/</span><span class="mi">05</span><span class="o">-</span><span class="n">Teaching</span><span class="o">/</span><span class="mi">2023</span><span class="n">_Python</span><span class="o">-</span><span class="n">seminar</span><span class="o">/</span><span class="n">Python_For_Psychologists_23</span><span class="o">-</span><span class="mi">24</span><span class="o">/</span><span class="n">lecture</span><span class="o">/</span><span class="n">introduction</span><span class="o">/</span><span class="n">intro_python_II</span><span class="o">.</span><span class="n">ipynb</span> <span class="n">Cell</span> <span class="mi">221</span> <span class="n">line</span> <span class="mi">1</span>
+<span class="o">----&gt;</span> <span class="o">&lt;</span><span class="n">a</span> <span class="n">href</span><span class="o">=</span><span class="s1">&#39;vscode-notebook-cell:/Users/aylinkallmayer/Dropbox/Promotion/05-Teaching/2023_Python-seminar/Python_For_Psychologists_23-24/lecture/introduction/intro_python_II.ipynb#Y434sZmlsZQ%3D%3D?line=0&#39;</span><span class="o">&gt;</span><span class="mi">1</span><span class="o">&lt;/</span><span class="n">a</span><span class="o">&gt;</span> <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;The element at index 0 of the list of snacks is: </span><span class="si">%s</span><span class="se">\n</span><span class="s1">&#39;</span> <span class="o">%</span><span class="k">snacks</span>[2])
+      <span class="o">&lt;</span><span class="n">a</span> <span class="n">href</span><span class="o">=</span><span class="s1">&#39;vscode-notebook-cell:/Users/aylinkallmayer/Dropbox/Promotion/05-Teaching/2023_Python-seminar/Python_For_Psychologists_23-24/lecture/introduction/intro_python_II.ipynb#Y434sZmlsZQ%3D%3D?line=1&#39;</span><span class="o">&gt;</span><span class="mi">2</span><span class="o">&lt;/</span><span class="n">a</span><span class="o">&gt;</span> <span class="n">snacks</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span> <span class="o">=</span> <span class="s1">&#39;Apples&#39;</span>
+      <span class="o">&lt;</span><span class="n">a</span> <span class="n">href</span><span class="o">=</span><span class="s1">&#39;vscode-notebook-cell:/Users/aylinkallmayer/Dropbox/Promotion/05-Teaching/2023_Python-seminar/Python_For_Psychologists_23-24/lecture/introduction/intro_python_II.ipynb#Y434sZmlsZQ%3D%3D?line=2&#39;</span><span class="o">&gt;</span><span class="mi">3</span><span class="o">&lt;/</span><span class="n">a</span><span class="o">&gt;</span> <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;It is now </span><span class="si">%s</span><span class="se">\n</span><span class="s1">&#39;</span> <span class="o">%</span><span class="k">snacks</span>[2])
 
 <span class="ne">IndexError</span>: list index out of range
 </pre></div>
@@ -2717,7 +2715,7 @@ If you’re uncertain about the <code class="docutils literal notranslate"><span
 </div>
 <section id="exercise-8-1">
 <h4>Exercise 8.1<a class="headerlink" href="#exercise-8-1" title="Permalink to this heading">#</a></h4>
-<p>Oh damn, we completely forgot to create a comparable <code class="docutils literal notranslate"><span class="pre">dictionary</span></code> for our <code class="docutils literal notranslate"><span class="pre">snacks</span></code> <code class="docutils literal notranslate"><span class="pre">list</span></code>. How would create one that follows the example from the <code class="docutils literal notranslate"><span class="pre">movie</span></code> <code class="docutils literal notranslate"><span class="pre">list</span></code>? NB: you can skip the <code class="docutils literal notranslate"><span class="pre">p</span> <span class="pre">value</span></code> right away:</p>
+<p>Oh damn, we completely forgot to create a comparable <code class="docutils literal notranslate"><span class="pre">dictionary</span></code> for our <code class="docutils literal notranslate"><span class="pre">snacks</span></code> <code class="docutils literal notranslate"><span class="pre">list</span></code>. How would create one that follows the example from the <code class="docutils literal notranslate"><span class="pre">artists</span></code> <code class="docutils literal notranslate"><span class="pre">list</span></code>? you can skip the <code class="docutils literal notranslate"><span class="pre">p</span> <span class="pre">value</span></code> right away:</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Please write your solution here</span>
@@ -2752,7 +2750,7 @@ If you’re uncertain about the <code class="docutils literal notranslate"><span
 <section id="homework-assignment-4">
 <h2>Homework assignment #4<a class="headerlink" href="#homework-assignment-4" title="Permalink to this heading">#</a></h2>
 <p>Your fourth homework assignment will entail working through a few tasks covering the contents discussed in this session within of a <code class="docutils literal notranslate"><span class="pre">jupyter</span> <span class="pre">notebook</span></code>. You can download it <a class="reference external" href="https://drive.google.com/file/d/1CZSOIb8NAeid5pjUzBPoqWF3YS7x42dz/view?usp=share_link">here</a>. In order to open it, put the <code class="docutils literal notranslate"><span class="pre">homework</span> <span class="pre">assignment</span> <span class="pre">notebook</span></code> within the folder you stored the <code class="docutils literal notranslate"><span class="pre">course</span> <span class="pre">materials</span></code>, start a <code class="docutils literal notranslate"><span class="pre">jupyter</span> <span class="pre">notebook</span></code> as during the sessions, navigate to the <code class="docutils literal notranslate"><span class="pre">homework</span> <span class="pre">assignment</span> <span class="pre">notebook</span></code>, open it and have fun! NB: a substantial part of it will be <em>optional</em> and thus the notebook will look way longer than it actually is.</p>
-<p><strong>Deadline: 03/11/2022, 11:59 PM EST</strong></p>
+<p><strong>Deadline: 24/11/2023, 11:59 PM EST</strong></p>
 </section>
 </section>
 
@@ -2793,7 +2791,7 @@ If you’re uncertain about the <code class="docutils literal notranslate"><span
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">Introduction VI</p>
+        <p class="prev-next-title">Introduction V</p>
       </div>
     </a>
     <a class="right-next"
@@ -2834,10 +2832,8 @@ If you’re uncertain about the <code class="docutils literal notranslate"><span
 </li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#operators-and-comparisons">Operators and comparisons</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#exercise-4-1">Exercise 4.1</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#exercise-4-2">Exercise 4.2</a><ul class="nav section-nav flex-column">
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#exercise-4-3">Exercise 4.3</a></li>
-</ul>
-</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#exercise-4-2">Exercise 4.2</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#exercise-4-3">Exercise 4.3</a></li>
 </ul>
 </li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#strings-list-and-dictionaries">Strings, List and dictionaries</a><ul class="nav section-nav flex-column">
