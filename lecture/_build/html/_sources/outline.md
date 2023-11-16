@@ -12,9 +12,10 @@ Please see below for our current optimistic schedule. Depending on our progress,
 The optimistic schedule below may be subject of change, dependent on time constraints and progress made in the previous meetings. The sessions for the following week or two will be updated here the week before.  
 ```
 
-| Date (day/month/year) 🗓         | Topic 💡 👨🏻‍🏫   | Assignment 🖥️ ✍🏽📖 / deadline |
-|--------------|-----------|------------|
-| 19/10/2023 | Introduction I - course information & setup | not applicable |
-| 26/10/2023 | Introduction II - no in person session! Jupyter notebooks I | not applicable |
-| 02/11/2023 | Introduction III - Jupyter notebooks II | not applicable |
-| 09/11/2023 | Introduction IV - Intro to Python I | not applicable |
+| Date (day/month/year) 🗓 | Topic 💡 👨🏻‍🏫 |
+|-------------------------|-------------|
+| 19/10/2023 | Introduction I - course information & setup |
+| 26/10/2023 | Introduction II - no in person session! Jupyter notebooks I |
+| 02/11/2023 | Introduction III - Jupyter notebooks II |
+| 09/11/2023 | Introduction IV - Intro to Python I |
+| 16/11/2023 | Introduction V - Intro to Python II |
