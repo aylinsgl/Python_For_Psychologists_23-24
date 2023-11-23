@@ -23,6 +23,10 @@ Your fourth homework assignment will entail working through a few tasks covering
 
 **Deadline: 24/11/2023, 11:59 PM EST**
 
+You can download the second part of the homework [here](https://drive.google.com/file/d/1Y6QfwfszbtSP7_hKFXtEEROK40KBwJ77/view?usp=sharing). 
+
+**It is due next Friday, December 1st, 11:59 PM** 
+
 ## optional/reading/further materials
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/--_K4G3HCcI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
