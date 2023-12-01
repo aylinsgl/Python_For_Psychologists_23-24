@@ -34,11 +34,6 @@ Not applicable, as project related work didn't start yet.
 
 Also, in preparation for our switch to more applied things, i.e. starting with experiments in `python`. We'll have to install `psychopy`. To do that please download the programm from [here](https://www.psychopy.org/download.html) and follow the instructions for your specific operating system. If you encounter any Problems, please let me know!
 
-## Homework assignment #5
-Your fifth homework assignment will entail working through a few tasks covering the contents discussed in this session within a `jupyter notebook`. You can download it [here](). In order to open it, put the `homework assignment notebook` within the folder you stored the `course materials` in, start a `jupyter notebook server` as during the sessions, navigate to the `homework assignment notebook`, open it and have fun! NB: a substantial part of it will be optional and thus the notebook will look way longer than it actually is.
-
-**Deadline: 08/12/2023, 11:59 PM EST**
-
 ## optional/reading/further materials
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ZbdXzqO0uLo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
