@@ -29,6 +29,8 @@ Please see the rendered version of the `jupyter notebook` [Introduction VI - Int
 Not applicable, as project related work didn't start yet.
 
 ## tasks for subsequent meeting 🖥️✍🏽📖
+You can download the homework for next week [here](https://drive.google.com/file/d/10g9krxq9Y5SNdRpWfkvOMF0j5i3lbxeB/view?usp=share_link). It is due next Friday 15.12.2023
+
 
 ## Prepare PsychoPy installation
 
