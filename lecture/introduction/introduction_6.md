@@ -23,13 +23,12 @@ This session, we'll build upon the things learned last week and broader our capa
 
 Please see the rendered version of the `jupyter notebook` [Introduction VI - Introduction to Python III](https://aylinsgl.github.io/Python_For_Psychologists_23-24/introduction/intro_python_III.html) in the `ToC` on the left.
 
-
 ## Project related work 🥼🧑🏿‍🔬👩🏻‍🔬
 
 Not applicable, as project related work didn't start yet.
 
 ## tasks for subsequent meeting 🖥️✍🏽📖
-You can download the homework for next week [here](https://drive.google.com/file/d/10g9krxq9Y5SNdRpWfkvOMF0j5i3lbxeB/view?usp=share_link). It is due next Friday 15.12.2023
+You can download the homework for next week [here](https://drive.google.com/file/d/10g9krxq9Y5SNdRpWfkvOMF0j5i3lbxeB/view?usp=share_link). It is due Friday 05.01.2024
 
 
 ## Prepare PsychoPy installation
