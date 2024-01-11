@@ -9,7 +9,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
-    <title>New Years recap &#8212; Winter - 2023</title>
+    <title>New Year recap &#8212; Winter - 2023</title>
   
   
   
@@ -186,14 +186,12 @@ const thebe_selector_output = ".output, .cell_output"
 </li>
 </ul>
 </li>
-<li class="toctree-l1 current active has-children"><a class="current reference internal" href="#">New Years recap</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-6"><i class="fa-solid fa-chevron-down"></i></label><ul class="simple">
-</ul>
-</li>
-<li class="toctree-l1 has-children"><a class="reference internal" href="experiments/experiments.html">Running experiments in Python</a><input class="toctree-checkbox" id="toctree-checkbox-7" name="toctree-checkbox-7" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-7"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">New Year recap</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="experiments/experiments.html">Running experiments in Python</a><input class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-6"><i class="fa-solid fa-chevron-down"></i></label><ul>
 <li class="toctree-l2"><a class="reference internal" href="experiments/intro_psychopy_I.html">Experimentation I - Introduction to PsychoPy I</a></li>
 </ul>
 </li>
-<li class="toctree-l1 has-children"><a class="reference internal" href="showcases/module_showcases.html">Python module showcases</a><input class="toctree-checkbox" id="toctree-checkbox-8" name="toctree-checkbox-8" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-8"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l1 has-children"><a class="reference internal" href="showcases/module_showcases.html">Python module showcases</a><input class="toctree-checkbox" id="toctree-checkbox-7" name="toctree-checkbox-7" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-7"><i class="fa-solid fa-chevron-down"></i></label><ul>
 <li class="toctree-l2"><a class="reference internal" href="showcases/python_numpy.html">Introduction to NumPy</a></li>
 
 
@@ -298,6 +296,37 @@ const thebe_selector_output = ".output, .cell_output"
 
 
 
+<div class="dropdown dropdown-launch-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Launch interactive content">
+    <i class="fas fa-rocket"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://mybinder.org/v2/gh/aylinsgl/Python_For_Psychologists_23-24/master?urlpath=tree/lecture/NY_recap.ipynb" target="_blank"
+   class="btn btn-sm dropdown-item"
+   title="Launch onBinder"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  
+    <img src="_static/images/logo_binder.svg">
+  </span>
+<span class="btn__text-container">Binder</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
 <div class="dropdown dropdown-source-buttons">
   <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
     <i class="fab fa-github"></i>
@@ -323,7 +352,7 @@ const thebe_selector_output = ".output, .cell_output"
       
       
       
-      <li><a href="https://github.com/aylinsgl/Python_For_Psychologists_23-24/edit/master/lecture/NY_recap.md" target="_blank"
+      <li><a href="https://github.com/aylinsgl/Python_For_Psychologists_23-24/edit/master/lecture/NY_recap.ipynb" target="_blank"
    class="btn btn-sm btn-source-edit-button dropdown-item"
    title="Suggest edit"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -370,7 +399,7 @@ const thebe_selector_output = ".output, .cell_output"
       
       
       
-      <li><a href="_sources/NY_recap.md" target="_blank"
+      <li><a href="_sources/NY_recap.ipynb" target="_blank"
    class="btn btn-sm btn-download-source-button dropdown-item"
    title="Download source file"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -380,7 +409,7 @@ const thebe_selector_output = ".output, .cell_output"
 <span class="btn__icon-container">
   <i class="fas fa-file"></i>
   </span>
-<span class="btn__text-container">.md</span>
+<span class="btn__text-container">.ipynb</span>
 </a>
 </li>
       
@@ -439,7 +468,9 @@ document.write(`
   </button>
 `);
 </script>
-
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
 </div></div>
       
     </div>
@@ -450,11 +481,21 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>New Years recap</h1>
+    <h1>New Year recap</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#for-loops">For Loops</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#list-comprehensions">List comprehensions</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#functions">Functions</a></li>
+</ul>
+            </nav>
         </div>
     </div>
 </div>
@@ -464,12 +505,185 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article" role="main">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="new-years-recap">
-<h1>New Years recap<a class="headerlink" href="#new-years-recap" title="Permalink to this heading">#</a></h1>
-<p>Today, we will recap some of the topics we covered before the holiday break: for loops and functions. If there is still some time, we will do a brief introduction to PsychoPy, which we will work with in the following weeks.</p>
-<p>Please open and optionally download the recap_notebook.</p>
-<div class="toctree-wrapper compound">
+  <section class="tex2jax_ignore mathjax_ignore" id="new-year-recap">
+<h1>New Year recap<a class="headerlink" href="#new-year-recap" title="Permalink to this heading">#</a></h1>
+<p>In today’s session, we will do a recap of the concepts that most of you indicated needed some more practicing. This includes looking back at for and while loops as well as functions. Even if you feel pretty confident already, continued practice on new problems is always a good way to solidify your knowledge. If you feel like you’re lagging behind and you don’t understand these concepts at all, please go back to the previous <span class="xref myst">Python III notebook</span> and keep revising these topics. Today, we will do some live problem solving and work on more example exercises.</p>
+<section id="for-loops">
+<h2>For Loops<a class="headerlink" href="#for-loops" title="Permalink to this heading">#</a></h2>
+<p>First, let’s look at for loops again. A for loop always requires some <strong>iterable</strong> - a collection of objects. What are some iterables you have learned about already?</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">it_string</span> <span class="o">=</span> 
+<span class="n">it_string_short</span> <span class="o">=</span> 
+<span class="n">it_list</span> <span class="o">=</span> 
+<span class="n">it_dictionary</span> <span class="o">=</span> 
+<span class="n">it_tuple</span> <span class="o">=</span> 
+
+<span class="n">it_list_of_iterables</span> <span class="o">=</span> <span class="p">[</span><span class="n">it_string</span><span class="p">,</span> <span class="n">it_string_short</span><span class="p">,</span> <span class="n">it_list</span><span class="p">,</span> <span class="n">it_dictionary</span><span class="p">,</span> <span class="n">it_tuple</span><span class="p">]</span>
+</pre></div>
 </div>
+</div>
+</div>
+<p>We can loop through elements of an iterable with <strong>for loops</strong></p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">for</span> <span class="n">s</span> <span class="ow">in</span> <span class="n">it_string</span><span class="p">:</span> <span class="c1"># defining var (s) and iteraterable (it_string)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">s</span><span class="p">)</span> <span class="c1"># body of the loop: what should happen with each iteration?</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">for</span> <span class="n">l</span> <span class="ow">in</span> <span class="n">it_list</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">l</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="n">it_dictionary</span><span class="o">.</span><span class="n">keys</span><span class="p">():</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">item</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">for</span> <span class="n">it</span> <span class="ow">in</span> <span class="n">it_list_of_iterables</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">it</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</section>
+<section id="list-comprehensions">
+<h2>List comprehensions<a class="headerlink" href="#list-comprehensions" title="Permalink to this heading">#</a></h2>
+<p>Imagine you have some iterable (e.g., list) and you want to loop through each item of this iterable with the goal to at the end have a list, that stores the output of the loop body from each iteration. you could do it like this:</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">it_list</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">6</span><span class="p">,</span><span class="mi">7</span><span class="p">,</span><span class="mi">8</span><span class="p">,</span><span class="mi">9</span><span class="p">]</span>
+<span class="n">outcome_list</span> <span class="o">=</span> <span class="p">[]</span>
+
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">it_list</span><span class="p">:</span>
+    <span class="n">new_i</span> <span class="o">=</span> <span class="n">i</span><span class="o">/</span><span class="mi">100</span>
+    <span class="n">outcome_list</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">new_i</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">outcome_list</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<p>The purpose of list comprehensions is to reduce the number of individual steps required to produce this specific goal, by making it a “one liner”</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">it_list</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">6</span><span class="p">,</span><span class="mi">7</span><span class="p">,</span><span class="mi">8</span><span class="p">,</span><span class="mi">9</span><span class="p">]</span>
+<span class="n">outcome_list</span> <span class="o">=</span> 
+
+<span class="nb">print</span><span class="p">(</span><span class="n">outcome_list</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<p>What if we wanted to include a conditional statement in our list comprehension? This is possible for simple if-else statements:</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">outcome_list</span> <span class="o">=</span> 
+<span class="nb">print</span><span class="p">(</span><span class="n">outcome_list</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<p>If we want to include what should happen if the statement evaluates to false (basically in the <code class="docutils literal notranslate"><span class="pre">else</span></code> case), we need to move it to the front of the list comprehension, before the <code class="docutils literal notranslate"><span class="pre">for</span> <span class="pre">x</span> <span class="pre">in</span> <span class="pre">y</span></code></p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">outcome_list</span> <span class="o">=</span> 
+<span class="nb">print</span><span class="p">(</span><span class="n">outcome_list</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<p><strong>Exercise</strong></p>
+<p>The secret number game:</p>
+<p>Use the <code class="docutils literal notranslate"><span class="pre">random.randint(lower_limit,</span> <span class="pre">upper_limit)</span></code> function to generate a secret number between the specified range and store it in a variable called <code class="docutils literal notranslate"><span class="pre">secret_number</span></code>.
+Allow the player to make multiple guesses by setting <code class="docutils literal notranslate"><span class="pre">max_attempts</span></code> to the number of guesses you want to allow.
+Loop through the number of guesses you allow and provide feedback for whether the guessed number was correct, too high or too low.
+End the game when the player correctly guesses the secret number or after a certain number of attempts.</p>
+<p>In order to submit a guess for each attempt you can use <code class="docutils literal notranslate"><span class="pre">int(input(f&quot;\nAttempt</span> <span class="pre">{attempt}/{max_attempts}:</span> <span class="pre">Enter</span> <span class="pre">your</span> <span class="pre">guess:</span> <span class="pre">&quot;))</span></code> and assign it to a variable called <code class="docutils literal notranslate"><span class="pre">guess</span></code>.</p>
+<p>Hints:</p>
+<ul class="simple">
+<li><p>Use if, elif, and else statements to provide feedback on the player’s guess.</p></li>
+<li><p>Include a break statement to exit the loop when the player guesses correctly.</p></li>
+</ul>
+<p>Feel free to customize the range, the number of attempts, and any other aspects of the game to make it more engaging!</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">random</span>
+
+<span class="c1"># Set the range for the secret number</span>
+<span class="n">lower_limit</span> <span class="o">=</span> <span class="mi">1</span>
+<span class="n">upper_limit</span> <span class="o">=</span> <span class="mi">20</span>
+
+<span class="c1"># Generate a random secret number</span>
+
+
+<span class="c1"># Set the maximum number of attempts</span>
+<span class="n">max_attempts</span> <span class="o">=</span> <span class="mi">3</span>
+
+<span class="c1"># print some welcome statement that tells the player the lower and upper limits of their guesses as well as the number of guesses available</span>
+
+<span class="c1"># create a for loop that asks for a guess, provides feedback on the guess and exits when the game ends (either correct guess or running out of nr of attempts)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<p><strong>Exercise</strong></p>
+<p>Grade calculator:</p>
+<p>Create a variable called <code class="docutils literal notranslate"><span class="pre">num_students</span></code> and assign it 20.
+Create a variable called <code class="docutils literal notranslate"><span class="pre">grades</span></code> and fill it with random numbers between 1 and 6 for each student via a list comprehension.
+Calculate and print the average score across students.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># number of students</span>
+
+<span class="c1"># generate grades for each student</span>
+
+<span class="c1"># print average grade</span>
+</pre></div>
+</div>
+</div>
+</div>
+<p>Now use another list comprehension to create a new list called <code class="docutils literal notranslate"><span class="pre">passed</span></code> that only includes grades better or equal to 4 and calculate the mean over the new list.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># your solution here</span>
+</pre></div>
+</div>
+</div>
+</div>
+</section>
+<section id="functions">
+<h2>Functions<a class="headerlink" href="#functions" title="Permalink to this heading">#</a></h2>
+<p><img alt="image.png" src="attachment:image.png" /></p>
+<p><strong>Exercise</strong></p>
+<p>you will create a simple text-based adventure game called “Escape the Dungeon.” The goal is to guide the player through a series of rooms, each presenting a unique challenge or obstacle. The player must make choices to overcome these challenges and successfully escape the dungeon.</p>
+<p>You need to create two functions: <code class="docutils literal notranslate"><span class="pre">room_challenge</span></code> and <code class="docutils literal notranslate"><span class="pre">escape_dungeon</span></code>.</p>
+<p>The <code class="docutils literal notranslate"><span class="pre">room_challenge</span></code> function should take in one positional argument <code class="docutils literal notranslate"><span class="pre">room_number</span></code>. First, it should print the room number and a prompt that says “there is a challenge you have to complete”. Then, you should create a variable <code class="docutils literal notranslate"><span class="pre">success</span></code> that randomly evaluates to <code class="docutils literal notranslate"><span class="pre">True</span></code> or <code class="docutils literal notranslate"><span class="pre">False</span></code>. If the challenge went successful, print a congratulations statement and return <code class="docutils literal notranslate"><span class="pre">True</span></code>. If not, print a statement that says the challenge failed and return <code class="docutils literal notranslate"><span class="pre">False</span></code>.</p>
+<p>The <code class="docutils literal notranslate"><span class="pre">escape_dungeon</span></code> function should take in one positional argument <code class="docutils literal notranslate"><span class="pre">num_rooms</span></code>. First, it should  print a prompt that welcomes the player and tells them how many rooms awaits them. Then, for each room, call the <code class="docutils literal notranslate"><span class="pre">room_challenge</span></code> function. If the challenge was successful, let the player know they successfully cleared the room. If not, exit the game and print a statement letting the play know they lost the game. If all rooms were cleared successfully, print a statement letting the play know they escaped the dungeon.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">random</span>
+
+<span class="c1"># define the first function</span>
+
+<span class="c1"># define the second function</span>
+
+<span class="c1"># call the function to mock &quot;play&quot; the game </span>
+</pre></div>
+</div>
+</div>
+</div>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -530,6 +744,22 @@ document.write(`
             </div>
             
             
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#for-loops">For Loops</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#list-comprehensions">List comprehensions</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#functions">Functions</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
               
             
           </div>
