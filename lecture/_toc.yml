@@ -23,7 +23,7 @@ chapters:
     - file: introduction/intro_python_III.ipynb
 - file: NY_recap.ipynb
 - file: experiments/experiments.md
-- file: newanalyses/DataAnalysis.ipynb
+- file: newanalyses/DataAnalysis_lecture.ipynb
 - file: showcases/module_showcases.md
   sections:
     - file: showcases/python_numpy.ipynb
